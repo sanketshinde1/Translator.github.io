@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Tranalator
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">    
+    </link>
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div class="text-input">
+                    <textarea class="from-text" placeholder="Enter text"></textarea>
+                    <textarea class="to-text" placeholder="Translation" readonly disabled></textarea>
+                 </div>
+                 <ul class="controls">
+                    <li class="row from">
+                        <div class="icon">
+                            <!-- <i class="fa fa-bullhorn"></i> -->
+                            <i id="from" class="fa fa-bullhorn" aria-hidden="true"></i>
+                            <i id="from" class="fas fa-copy"></i>
+                        </div>
+                        <select>
+                        
+                        </select>
+                    </li>
+                    <li class="exchange">
+                        <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </li>
+                    <li class="row to">
+                        <select>
+                            
+                        </select>
+                        <div class="icon">
+                            <i id="to" class="fas fa-volume-up"></i>
+                            <i id="to" class="fas fa-copy"></i>
+                        </div>
+                    </li>
+                 </ul>
+            </div>
+            <button>Translate Text</button>
+        </div>
+
+        <script src="js/countries.js"></script>
+        <script src="js/script.js"></script>
+       
+    </body>
+</html>
